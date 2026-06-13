@@ -1,0 +1,28 @@
+## Interface: 30300
+## X-BigfootType: 1
+## X-BigfootDesc: 在玩家的姓名板上方显示buff和debuff
+## Title: Plate Buffs
+## Version: r167 (r167)
+## Notes: Show buffs on nameplates
+## Author: Cyprias@gmail.com
+## SavedVariables: PB_DB
+## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, LibNameplate-1.0
+## X-Curse-Packaged-Version: r167
+## X-Curse-Project-Name: PlateBuffs
+## X-Curse-Project-ID: platebuffs
+## X-Curse-Repository-ID: wow/platebuffs/mainline
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: true
+
+#@no-lib-strip@
+libs\embeds.xml
+#@end-no-lib-strip@
+
+locales\locales.xml
+
+func.lua
+core.lua
+frames.lua
+options.lua
+combatlog.lua
